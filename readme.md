@@ -1,4 +1,7 @@
-<img src="https://nextlevelweek.com/og/nlw-edition.png" >
+<a href="https://nextlevelweek.com/inscricao/6">
+    <img src="https://nextlevelweek.com/og/nlw-edition.png" >
+</a>
+
 <hr/>
 <br/>
 
