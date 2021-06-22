@@ -3,7 +3,6 @@
 </a>
 
 <hr/>
-<br/>
 
 <h1 align="center">NLW Valoriza</h1>
 
@@ -60,4 +59,50 @@ Dentro da nossa API nós temos os recursos, que são as rotas que os clientes fa
 Para tipar uma variável podemos usar: 
 
 NomeDaVariavel: Tipo. Exemplo: Const Inteiro: integer.
+
+<h1 align="left">Aula 2 🚀</h1>
+
+## Tipos de parâmetros:
+
+### Route Params:
+
+Parâmetros que fazem parte da nossa rota. Exemplo: /usuários/1. Um parâmetro divido por barra na própria rota. Buscas por id, alteração de informações.
+
+### Query Params:
+
+Parâmetros que fazem parte de uma query. Uma filtragem, por exemplo: /usuários?nome=jean. Para adicionar mais parâmertos você adiciona "&".
+
+### Body Params:
+
+Parâmetros que vem no corpo da nossa requisição. Por exemplo: um json passando informações para um post, put ou patch.
+
+## O que são Migrations?
+
+Migrations é um controle que temos de versionamento de tabelas dentro da nossa aplicação.
+
+## O que são Entities?
+
+Entidades são uma referência para tabelas.
+
+## O que é um constructor?
+
+Constructor é um método especial usado para criar e inicializar um objeto criado a partir de uma classe.
+
+## O que é um Repositório?
+
+Repositório é toda camada que faz a comunicação entre a entidade e o banco de dados.
+
+## Regras do projeto:
+
+#### Cadastro de usuário;
+- [x]  Não é permitido cadastrar mais de um user com o mesmo e-mail;
+- [x]  Não é permitido cadastrar user sem e-mail;
+#### Cadastro de TAG;
+- [ ]  Não é permitido cadastrar mais de uma tag com o mesmo nome;
+- [ ]  Não é permitido cadastrar tag sem nome;
+- [ ]  Não é permitido o cadastro por usuários que não sejam admin;
+#### Cadastro de elogios;
+- [ ]  Não é permitido um usuário cadastrar um elogio para si;
+- [ ]  Não é permitido cadastrar elogios para usuários inválidos;
+- [ ]  O usuário precisa estar autenticado na aplicação;
 
