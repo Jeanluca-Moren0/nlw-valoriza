@@ -1,5 +1,5 @@
 <a href="https://nextlevelweek.com/inscricao/6">
-    <img src="https://nextlevelweek.com/og/nlw-edition.png" >
+    <img src="./images/nlw-together.png" >
 </a>
 
 <hr/>
@@ -25,6 +25,15 @@
 <br/>
 <div align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" width="350px"> 
+</div>
+
+<hr/>
+
+
+<h3 align="left">Arquitetura do Projeto:</h3>
+<br/>
+<div align="center">
+<img src="./images/Arquitetura.png"> 
 </div>
 
 <hr/>
@@ -97,12 +106,25 @@ Repositório é toda camada que faz a comunicação entre a entidade e o banco d
 #### Cadastro de usuário;
 - [x]  Não é permitido cadastrar mais de um user com o mesmo e-mail;
 - [x]  Não é permitido cadastrar user sem e-mail;
-#### Cadastro de TAG;
-- [ ]  Não é permitido cadastrar mais de uma tag com o mesmo nome;
-- [ ]  Não é permitido cadastrar tag sem nome;
-- [ ]  Não é permitido o cadastro por usuários que não sejam admin;
+
 #### Cadastro de elogios;
 - [ ]  Não é permitido um usuário cadastrar um elogio para si;
 - [ ]  Não é permitido cadastrar elogios para usuários inválidos;
 - [ ]  O usuário precisa estar autenticado na aplicação;
 
+<h1 align="left">Aula 3 🚀</h1>
+
+## O que são middlewares?
+
+Middlewares são interceptadores que temos dentro de uma requisição, podemos interromper uma requisição por completo ou adicionar uma informação.
+
+Middlewares de erros tem 4 parâmetros, sendo eles:
+
+- Erros;
+- Request;
+- Response;
+- Next;
+#### Cadastro de TAG;
+- [x]  Não é permitido cadastrar mais de uma tag com o mesmo nome;
+- [x]  Não é permitido cadastrar tag sem nome;
+- [x]  Não é permitido o cadastro por usuários que não sejam admin;
